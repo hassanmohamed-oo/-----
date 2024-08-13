@@ -23,10 +23,10 @@ const App = () => {
   return (
 
     <useLists.Provider value={{ lists, setLists }}>
-      <BrowserRouter>
+      <BrowserRouter basename="/life-goal-react">
         <>
           
-          <Routes basename="/life-goal-react">
+          <Routes >
             <Route path="/" element={ <AnimatePresence><Home /></AnimatePresence>} />
             <Route path="/lists" element={<Lists />} />
             <Route path="/listgoals/:listnum" element={<Listgoals/>} />
