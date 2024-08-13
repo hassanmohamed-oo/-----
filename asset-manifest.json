@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/life-goal-react/static/css/main.7b31a0e0.css",
-    "main.js": "/life-goal-react/static/js/main.cb323666.js",
+    "main.js": "/life-goal-react/static/js/main.016c04ee.js",
     "static/js/453.2a116d49.chunk.js": "/life-goal-react/static/js/453.2a116d49.chunk.js",
     "static/media/background2.png": "/life-goal-react/static/media/background2.7756e4d649cc255dd63e.png",
     "index.html": "/life-goal-react/index.html",
     "main.7b31a0e0.css.map": "/life-goal-react/static/css/main.7b31a0e0.css.map",
-    "main.cb323666.js.map": "/life-goal-react/static/js/main.cb323666.js.map",
+    "main.016c04ee.js.map": "/life-goal-react/static/js/main.016c04ee.js.map",
     "453.2a116d49.chunk.js.map": "/life-goal-react/static/js/453.2a116d49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b31a0e0.css",
-    "static/js/main.cb323666.js"
+    "static/js/main.016c04ee.js"
   ]
 }
