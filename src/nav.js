@@ -17,10 +17,10 @@ const Nav = () => {
           <Link to="/life-goal-react"><motion.p
           whileHover={{scale:1.2,color:'#EA906C'}}
           >Home</motion.p></Link>
-          <Link to="/life-goal-react/lists"><motion.p
+          <Link to="/lists"><motion.p
           whileHover={{scale:1.2,color:'#EA906C'}}
           >Lists</motion.p></Link>
-          <Link to="/life-goal-react/contact"><motion.p
+          <Link to="/contact"><motion.p
           whileHover={{scale:1.2,color:'#EA906C'}}
           >Contact</motion.p></Link>
         </motion.div>

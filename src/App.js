@@ -30,10 +30,10 @@ const App = () => {
               <Home />
             </AnimatePresence>
           } />
-          <Route path="/life-goal-react/lists" element={<Lists />} />
-          <Route path="/life-goal-react/listgoals/:listnum" element={<Listgoals />} />
-          <Route path="/life-goal-react/contact" element={<ContactHassan />} />
-          <Route path="/life-goal-react/notfound" element={<NotFound />} />
+          <Route path="/lists" element={<Lists />} />
+          <Route path="/listgoals/:listnum" element={<Listgoals />} />
+          <Route path="/contact" element={<ContactHassan />} />
+          <Route path="/notfound" element={<NotFound />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
