@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <div>
             <nav>
-        <Link className='logo' to="/life-goal-react" ><motion.h1
+        <Link className='logo' to="/" ><motion.h1
         initial={{y:'-5vh'}}
         animate={{y:0}}
         transition={{type:'spring',stiffness:60, duration:1}}
@@ -14,7 +14,7 @@ const Nav = () => {
         initial={{opacity:0}}
         animate={{opacity:1}}
         transition={{type:'spring',stiffness:100, duration:1}}>
-          <Link to="/life-goal-react"><motion.p
+          <Link to="/"><motion.p
           whileHover={{scale:1.2,color:'#EA906C'}}
           >Home</motion.p></Link>
           <Link to="/lists"><motion.p
