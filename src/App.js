@@ -22,21 +22,23 @@ const App = () => {
 
   return (
 
-    <useLists.Provider value={{ lists, setLists }}>
-      <BrowserRouter basename="/life-goal-react">
-        <>
-          
-          <Routes >
-            <Route path="/" element={ <AnimatePresence><Home /></AnimatePresence>} />
-            <Route path="/lists" element={<Lists />} />
-            <Route path="/listgoals/:listnum" element={<Listgoals/>} />
-            <Route path="/contact" element={<ContactHassan/>} />
-            <Route path="/notfound" element={<NotFound />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </>
-      </BrowserRouter>
-    </useLists.Provider>
+   <useLists.Provider value={{ lists, setLists }}>
+  <BrowserRouter basename="/life-goal-react">
+    <Routes>
+      <Route path="/" element={
+        <AnimatePresence>
+          <Home />
+        </AnimatePresence>
+      } />
+      <Route path="/lists" element={<Lists />} />
+      <Route path="/listgoals/:listnum" element={<Listgoals />} />
+      <Route path="/contact" element={<ContactHassan />} />
+      <Route path="/notfound" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </BrowserRouter>
+</useLists.Provider>
+
  
   );
 }
