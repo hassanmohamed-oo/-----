@@ -25,6 +25,9 @@ const App = () => {
    <useLists.Provider value={{ lists, setLists }}>
   <BrowserRouter basename="/">
     <Routes>
+      <Route path='/life-goal-react' element={<AnimatePresence>
+          <Home />
+        </AnimatePresence>}/>
       <Route path="/" element={
         <AnimatePresence>
           <Home />
