@@ -65,7 +65,7 @@ const Home = () => {
           photo+ <span className='option'>(optional)</span></button>
           }
         <button className='create' onClick={createListBtn}>Create</button>
-        <Link to={`/listgoals/${lists.length+1}`} id='listgoalss'></Link>
+        <Link to={`/life-goal-react/listgoals/${lists.length+1}`} id='listgoalss'></Link>
        </motion.div>
     </motion.div>
     </AnimatePresence>
