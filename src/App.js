@@ -26,7 +26,7 @@ const App = () => {
       <BrowserRouter>
         <>
           
-          <Routes>
+          <Routes basename="/life-goal-react">
             <Route path="/" element={ <AnimatePresence><Home /></AnimatePresence>} />
             <Route path="/lists" element={<Lists />} />
             <Route path="/listgoals/:listnum" element={<Listgoals/>} />
